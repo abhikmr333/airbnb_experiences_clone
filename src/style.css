@@ -1,3 +1,7 @@
+body {
+    font-family: Poppins, sans-serif;
+}
+
 .navbar {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
         rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -10,4 +14,30 @@
     width: 82px;
     height: 25px;
     margin-left: 30px;
+}
+
+.hero--section {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 39px;
+    margin-bottom: 10px;
+}
+
+.hero--info {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.hero--section img {
+    padding-top: 40px;
+    width: 550px;
+    height: 300px;
+    align-self: center;
 }
