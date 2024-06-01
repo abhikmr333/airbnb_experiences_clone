@@ -45,6 +45,7 @@ body {
 .card--image {
     width: 170px;
     height: 230px;
+    padding-right: 25px;
 }
 
 .card--ratings {
@@ -54,7 +55,7 @@ body {
     line-height: 13px;
 }
 
-.star {
+.card--star {
     width: 15px;
     height: 15px;
 }
@@ -92,8 +93,13 @@ body {
     background: white;
     left: 5px;
     top: -5px;
+    text-align: center;
 }
 
 .card--img-container {
     position: relative;
+}
+
+.cards-container {
+    display: flex;
 }
